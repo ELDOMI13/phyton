@@ -1,0 +1,7 @@
+temperatura= int(input("dime la temperatura"))
+if(temperatura < 0):
+    print("es hielo")
+elif( temperatura > 100):
+    print("es liquido")
+elif(temperatura < 100):
+    print("es gas")
